@@ -8,6 +8,10 @@ html {
     font-size: 60px;
     text-decoration: underline;
     color: black;
+    max-width: 70ch;
+    width: calc(100% - 4rem);
+    margin: 0 auto;
+    background-color: hsl(335, 61%, 71%);
 }
 
 body {
