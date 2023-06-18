@@ -1,0 +1,39 @@
+html {
+    background-color: beige;
+    color: burlywood;
+}
+
+#header {
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+    color: black;
+}
+
+body {
+    text-indent: 1in;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image-link {
+    text-indent: 1in;
+}
+
+h3 {
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:chocolate;
+}
+
+ul,
+ol {
+    text-align: left;
+    color: black;
+    font-size: 26px;
+}
+
+ol {
+    color: burlywood;
+}
