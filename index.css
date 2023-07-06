@@ -1,43 +1,51 @@
-html {
-    background-color: beige;
-    color: burlywood;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright&family=Fira+Sans:ital,wght@1,700&family=Great+Vibes&display=swap');
+* {
+    color: rgb(00, 00, 00);
+    box-sizing: border-box;
 }
 
-#header {
-    text-align: center;
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cormorant Upright', serif;
+    font-size: x-large;
+}
+
+.main-header {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-header h1 {
+    font-family: 'Great Vibes', cursive;
     font-size: 60px;
-    text-decoration: underline;
-    color: black;
-    max-width: 70ch;
-    width: calc(100% - 4rem);
-    margin: 0 auto;
-    background-color: hsl(335, 61%, 71%);
 }
 
-body {
-    text-indent: 1in;
-    font-size: 32px;
+.nav ul{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.nav li{ 
+    display: inline;
+    border-left: 1px solid rgb(50, 50, 50);
+    border-right: 1px solid rgb(50, 50, 50);
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 0.5em;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-weight: lighter;
+}
+
+.nav a:hover {
+    background-color: rgb(50, 50, 50);
+    color: gold;
+}
+
+.main-nav {
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.image-link {
-    text-indent: 1in;
-}
-
-h3 {
-    font-size: 35px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:chocolate;
-}
-
-ul,
-ol {
-    text-align: left;
-    color: black;
-    font-size: 26px;
-}
-
-ol {
-    color: burlywood;
 }
