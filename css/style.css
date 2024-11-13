@@ -50,13 +50,11 @@ header {
 .image-links {
     position: relative;
     width: fit-content;
-    
 }
 
 .image {
     display: block;
     width: 100%; /* ensures the image scales to its container */
-    
     border-radius: 10%;
 }
 
@@ -73,6 +71,7 @@ header {
     transition: opacity 0.3s ease;
     background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
     border-radius: 10%;
+    pointer-events: none;
 }
 
 .image-links:hover .middle {
